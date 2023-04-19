@@ -119,6 +119,13 @@
    margin-top: -5px;
    font-size: 20px;
    cursor: pointer;
+      display: flex;
+   position: fixed;
+   top:0;
+   width: 100%;
+   background-color: rgb(251, 255, 196);
+   overflow: auto;
+   height: auto;
  }
 
  .home {
@@ -138,20 +145,6 @@
  .home-img img {
    width: 100%;
  }
-
- /* .home-img{
-  transition: .3sec;
-  border: 5px solid rgb(238, 119, 0);
-  border-top:none;
-  border-bottom: none;
-  border-right: none;
-  border-radius: 1px;
-  transition: .3s;
- }
-
- .home-img:hover{
-  color: #02225a;
- } */
 
 
  .home-text span {
