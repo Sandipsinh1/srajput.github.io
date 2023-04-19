@@ -87,7 +87,13 @@
 
  .navbar {
    display: flex;
- }
+   position: fixed;
+   top:0;
+   width: 100%;
+   background-color: rgb(251, 255, 196);
+   overflow: auto;
+   height: auto;
+}
 
  .navbar a {
    font-size: 1rem;
